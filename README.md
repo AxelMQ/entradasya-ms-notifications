@@ -94,3 +94,7 @@ npm run dev
 # Ejecutar en producción
 npm start
 ```
+
+## Estado de Verificacion CI/CD
+
+- Pipeline `.github/workflows/ci-develop.yml` verificado con disparo automatico en rama `develop`, generando artifacts descargables e imagenes en GHCR y Docker Hub.
